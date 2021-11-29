@@ -62,12 +62,15 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+- Using Ansible to automate routine or daily tasks allows the administrator(s) to spend less time on repetitive daily tasks and allows for them to spend more time on projects that need more attention and time. In more technical terms, it helps  with the representation of Infrastructure as Code (IAC).
 
 The playbook implements the following tasks:
-- 
-- 
-- 
+- Install Docker
+- Install python3-pip
+- Install Docker module
+- Increase virtual memory
+- Use more memory
+- Download and launch a Docker Elk container
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 ![Docker PS Screenshot](/screenshots/761 SS.PNG)
@@ -80,7 +83,7 @@ We have installed the following Beats on these machines:
 - Metricbeat & Filebeat
 
 These Beats allow us to collect the following information from each machine:
-- They allow us to monitor the logs and locations specified by the user. They also allow us to keep record metrics from the services running on each server and how they are performing. Metricbeat examples: Logstash - 
+- They allow us to monitor the logs and locations specified by the user. They also allow us to keep record metrics from the services running on each server and how they are performing. You may find logstash  
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
@@ -93,6 +96,10 @@ SSH into the control node and follow the steps below:
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
+- Navigate to: http://20.114.128.48:5601/app/kibana to see if the Elk server is running.
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+### These are potential commands you may want to use:
+- Use ansible-playbook <playbook-filename.yml> to run playbooks
+- Nano to update files
+- Ctrl O to save then Ctrl X to exit file config
+- ssh user@ip to enter certain servers
