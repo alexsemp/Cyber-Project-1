@@ -1,7 +1,7 @@
-# Title
+# LINUX SCRIPTS
 
-- bullet points
-- bullet points
+- There is only 1 file in here.
+- This is from HW week 6, which contains 1 nano script file.
 
 
-### Sub Titles
+### HW WEEK 6
