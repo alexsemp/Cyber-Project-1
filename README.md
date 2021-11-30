@@ -73,7 +73,7 @@ The playbook implements the following tasks:
 - Download and launch a Docker Elk container
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-![Docker PS Screenshot](screenshots/761 SS.PNG)
+![Docker PS Screenshot](https://github.com/alexsemp/Cyber-Project-1/blob/main/screenshots/761%20SS.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
