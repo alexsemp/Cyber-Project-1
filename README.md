@@ -83,7 +83,7 @@ We have installed the following Beats on these machines:
 - Metricbeat & Filebeat
 
 These Beats allow us to collect the following information from each machine:
-- They allow us to monitor the logs and locations specified by the user. They also allow us to keep record metrics from the services running on each server and how they are performing. Examples:   
+- They allow us to monitor the logs and locations specified by the user. They also allow us to keep record metrics from the services running on each server and how they are performing. Examples would be:p  
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
