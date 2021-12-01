@@ -96,7 +96,7 @@ SSH into the control node and follow the steps below:
 - Run the playbook: ansible-playbook /etc/ansible/elk_install.yml, and navigate to http://20.114.128.48:5601/app/kibana to check that the installation worked as expected.
 
 - YAML or YML files are the playbooks and they get copied into the ansible folder.
-- The host file is the file you want to update to make ansible run the playbook on a specific machine. The filebeat file is where you want to specify the location to install it and yyou have to SSH into the VM you want to install Elk and then run the commands through the command line. H
+- The host file is the file you want to update to make ansible run the playbook on a specific machine. The filebeat file is where you want to specify the location to install it and you have to SSH into the VM you want to install Elk and then run the commands through the command line.
 - Navigate to: http://20.114.128.48:5601/app/kibana to see if the Elk server is running.
 
 ### These are potential commands you may want to use:
