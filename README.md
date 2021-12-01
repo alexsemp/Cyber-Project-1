@@ -51,13 +51,13 @@ Machines within the network can only be accessed by Jump-Box-Provisioner.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible     |  Allowed IP Addresses  |
-|----------|------------------------ |------------------------|
-| Jump Box | No or Y w/ direct SSH22 | 10.0.0.4               |
-| Web-1    | No                      | 10.0.0.7               |
-| Web-2    | No                      | 10.0.0.8               |
-| Web-3    | No                      | 10.0.0.9               |
-| Elk-VM   | Yes                     | 10.1.0.4  20.114.128.48|
+| Name     | Publicly Accessible     |  Allowed IP Addresses   |
+|----------|------------------------ |-------------------------|
+| Jump Box | No or Y w/ direct SSH22 | 10.0.0.4                |
+| Web-1    | No                      | 10.0.0.7                |
+| Web-2    | No                      | 10.0.0.8                |
+| Web-3    | No                      | 10.0.0.9                |
+| Elk-VM   | Yes                     | 10.1.0.4 / 20.114.128.48|
 
 ### Elk Configuration
 
@@ -83,7 +83,7 @@ We have installed the following Beats on these machines:
 - Metricbeat & Filebeat
 
 These Beats allow us to collect the following information from each machine:
-- They allow us to monitor the logs and locations specified by the user. They also allow us to keep record metrics from the services running on each server and how they are performing. Examples would be:p  
+- They allow us to monitor the logs and locations specified by the user. They also allow us to keep record metrics from the services running on each server and how they are performing. Examples would be:  
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
