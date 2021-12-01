@@ -9,7 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - [Ansible Files](https://github.com/alexsemp/Cyber-Project-1/tree/main/ansible%20files)
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
