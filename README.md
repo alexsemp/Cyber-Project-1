@@ -44,7 +44,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jump-box-provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- Public: 137.117.88.237 | Private: 10.0.0.4
+- Public: Localhost | Private: 10.0.0.4
 
 Machines within the network can only be accessed by Jump-Box-Provisioner.
 - Tehcnically the jump-box-provisioner is the machine that can access Elk, but docker has to be running and you access it through the container. The Elk-VM ip address is: 10.1.0.4.
